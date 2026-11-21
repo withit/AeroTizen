@@ -1,5 +1,34 @@
 # Changelog
 
+## [4.0.0](https://github.com/withit/AeroTizen/compare/cli-v3.1.0...cli-v4.0.0) (2026-11-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **cli:** configure Home and startup with one command ([#147](https://github.com/withit/AeroTizen/issues/147))
+
+### Features
+
+* add Stremio Continue Watching on rooted TVs ([#141](https://github.com/withit/AeroTizen/issues/141)) ([0d188b7](https://github.com/withit/AeroTizen/commit/0d188b782b3ee1e2478ca7da07f75ed701548316))
+* **cli:** read current Home settings through the paired helper ([#281](https://github.com/withit/AeroTizen/issues/281)) ([a1c0df7](https://github.com/withit/AeroTizen/commit/a1c0df7bc094e11b0c788fff885d712a4ebc17af))
+* **cli:** remap or disable remote app buttons ([#276](https://github.com/withit/AeroTizen/issues/276)) ([0e7277e](https://github.com/withit/AeroTizen/commit/0e7277e1e19c2b0efb2b0b3e101a4ce147a1ea9d))
+* **cli:** rename remote app buttons ([#297](https://github.com/withit/AeroTizen/issues/297)) ([46a58aa](https://github.com/withit/AeroTizen/commit/46a58aa361e250c2208e0b2d2c306fff35f595d8))
+* distinguish TV dev builds and the root helper ([#155](https://github.com/withit/AeroTizen/issues/155)) ([4ab3560](https://github.com/withit/AeroTizen/commit/4ab356039a55a4c51c967364be3d430df10e419c))
+* **launcher:** note that the language setting only changes AeroTizen ([#156](https://github.com/withit/AeroTizen/issues/156)) ([1e0a5aa](https://github.com/withit/AeroTizen/commit/1e0a5aa2f1e42201fc9fc92999355296031a65c6))
+
+
+### Bug Fixes
+
+* **cli:** configure Home and startup with one command ([#147](https://github.com/withit/AeroTizen/issues/147)) ([d3d6d13](https://github.com/withit/AeroTizen/commit/d3d6d1394e325f244a9869fc24e4c5219959ee40))
+* **cli:** recover Native Home automatic startup ([#181](https://github.com/withit/AeroTizen/issues/181)) ([df0c3a5](https://github.com/withit/AeroTizen/commit/df0c3a54a7f58179e53e2429a1b9dc37061e2620))
+* **cli:** start launcher before applying Native Home ([#203](https://github.com/withit/AeroTizen/issues/203)) ([c789c96](https://github.com/withit/AeroTizen/commit/c789c96998f4c76a1dfba261ac38064e5f30ec75))
+* **cli:** use SDB model when HTTP metadata is blank ([#304](https://github.com/withit/AeroTizen/issues/304)) ([bd8f7bf](https://github.com/withit/AeroTizen/commit/bd8f7bf699c09f24196b46a3600f4463b22a3a6a))
+* **launcher:** offer Samsung viewer for HDMI playback ([#127](https://github.com/withit/AeroTizen/issues/127)) ([9863286](https://github.com/withit/AeroTizen/commit/9863286bdd7ae26e2e2676e66a52c8d62b9fea60))
+* **launcher:** recover watcher startup and Home return on Tizen 10 ([#193](https://github.com/withit/AeroTizen/issues/193)) ([fc773a8](https://github.com/withit/AeroTizen/commit/fc773a8ee361d16ff0b3cf2aecc610ca09350056))
+* **launcher:** report IP Control failures in support logs ([#306](https://github.com/withit/AeroTizen/issues/306)) ([6be4ca8](https://github.com/withit/AeroTizen/commit/6be4ca82a727b58241a751c6fce9fc619ff89103))
+* **release:** isolate CLI package and preserve root installs ([#98](https://github.com/withit/AeroTizen/issues/98)) ([bd4e5dc](https://github.com/withit/AeroTizen/commit/bd4e5dc589254560060507df186d22d824772894))
+* **root:** preserve root access after remote power wake ([#199](https://github.com/withit/AeroTizen/issues/199)) ([c6a6b65](https://github.com/withit/AeroTizen/commit/c6a6b65a8af4f0cca92668bd3d0ca25e7324dea4))
+
 ## [3.1.0](https://github.com/helalaou/AeroTizen/compare/cli-v3.0.1...cli-v3.1.0) (2026-11-18)
 
 
